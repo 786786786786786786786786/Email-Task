@@ -1,0 +1,19 @@
+2) if i got the job following steps i follow this to write this programm
+
+1) first of all i use Repository pattren to Write this code.. in repository pattren there will be the Seprate 
+     1) Bussiness Layer
+     2) Data Access Layer
+     3) Email Model
+     4) Our Controller
+i use sql servr all the information are save in db and get the information through our Repository Pattren and call them in our controller class ..
+ In Bussiness Layer there Will be the Manager and IManger
+ in Data Access Layer there Will bhe Repository and IRepository in repository class we call stored procedure to get the Records comming from 
+ Data base
+ in Email Model our Data base property name 
+
+i use depedency injection so only one object is create and it does not depends on other class
+i use the Service AddScoped in Db Helper
+
+So i follow this Steps to Build Application from scratch
+ 
+
